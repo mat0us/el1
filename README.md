@@ -47,24 +47,24 @@ $$r = \sqrt{8{,}988 \times 10^9 \cdot \frac{8 \times 10^{-12}}{0{,}6}} \approx 0
 
 **Výsledek:** $r = 0{,}346\,\text{m}$
 
-### 4. Rovinný deskový kondenzátor
+   ### 4. Rovinný deskový kondenzátor
 
-**Zadání:** Rovinný deskový vzduchový kondenzátor s plochou desek $40\,\text{cm}^2$ a vzdáleností desek $1{,}2\,\text{mm}$ je připojen na napětí $600\,\text{V}$. Určete kapacitu kondenzátoru, náboj na deskách a celkovou energii elektrostatického pole.
+   **Zadání:** Rovinný deskový vzduchový kondenzátor s plochou desek $40\,\text{cm}^2$ a vzdáleností desek $1{,}2\,\text{mm}$ je připojen na napětí $600\,\text{V}$. Určete kapacitu kondenzátoru, náboj na deskách a celkovou energii elektrostatického pole.
 
-**Vzorce:**
-$$C = \epsilon_0 \cdot \frac{S}{d}, \quad Q = C \cdot U, \quad E_P = \frac{1}{2} \cdot C \cdot U^2$$
-kde $\epsilon_0 \approx 8{,}854 \times 10^{-12}\,\text{F}/\text{m}$
+   **Vzorce:**
+   $$C = \epsilon_0 \cdot \frac{S}{d}, \quad Q = C \cdot U, \quad E_P = \frac{1}{2} \cdot C \cdot U^2$$
+   kde $\epsilon_0 \approx 8{,}854 \times 10^{-12}\,\text{F}/\text{m}$
 
-**Výpočet:**
-$$S = \pi \cdot \frac{(0{,}16)^2}{4} \approx 2{,}0106 \times 10^{-2} , \text{m}^2$$
-$$C = 8{,}854 \times 10^{-12} \cdot \frac{2{,}0106 \times 10^{-2}}{1{,}2 \times 10^{-3}} \approx 1{,}48 \times 10^{-10} , \text{F}$$
-$$Q = 1{,}48 \times 10^{-10} \cdot 600 = 8{,}88 \times 10^{-8} , \text{C}$$
-$$E_P = \frac{1}{2} \cdot 1{,}48 \times 10^{-10} \cdot (600)^2 = 2{,}664 \times 10^{-5} , \text{J}$$
+   **Výpočet:**
+   $$S = 40 \times 10^{-4} = 4 \times 10^{-3}\,\text{m}^2$$
+   $$C = 8{,}854 \times 10^{-12} \cdot \frac{4 \times 10^{-3}}{1{,}2 \times 10^{-3}} \approx 2{,}95 \times 10^{-11}\,\text{F}$$
+   $$Q = 2{,}95 \times 10^{-11} \cdot 600 = 1{,}77 \times 10^{-8}\,\text{C}$$
+   $$E_P = \frac{1}{2} \cdot 2{,}95 \times 10^{-11} \cdot (600)^2 \approx 5{,}31 \times 10^{-6}\,\text{J}$$
 
-**Výsledky:**
-$C = 0{,}148 , \text{nF}$
-$Q = 88{,}8 , \text{nC}$
-$E_P = 26{,}64 , \mu\text{J}$
+   **Výsledky:**
+   - $C \approx 29{,}5\,\text{pF}$
+   - $Q \approx 17{,}7\,\text{nC}$
+   - $E_P \approx 5{,}31\,\mu\text{J}$
 
 ### 5. Výsledná kapacita spojení kondenzátorů
 
@@ -81,24 +81,26 @@ $C_1$ a $C_2$ jsou zapojeny sériově, jejich kombinace je paralelně s $C_4$, a
 $$C_S = \frac{C_a \cdot C_b}{C_a + C_b}, \quad C_P = C_a + C_b$$
 
 **Výpočet:**
+
 1. $C_1$ a $C_2$ jsou zapojeny sériově:
-    $$
-    C_{12} = \frac{C_1 \cdot C_2}{C_1 + C_2} = \frac{6 \cdot 2}{6 + 2} = \frac{12}{8} = 1{,}5\,\mu\text{F}
-    $$
+   $$
+   C_{12} = \frac{C_1 \cdot C_2}{C_1 + C_2} = \frac{6 \cdot 2}{6 + 2} = \frac{12}{8} = 1{,}5\,\mu\text{F}
+   $$
 2. $C_{12}$ je paralelně s $C_4$:
-    $$
-    C_{124} = C_{12} + C_4 = 1{,}5 + 3 = 4{,}5\,\mu\text{F}
-    $$
+   $$
+   C_{124} = C_{12} + C_4 = 1{,}5 + 3 = 4{,}5\,\mu\text{F}
+   $$
 3. $C_{124}$ je v sérii s $C_3$:
-    $$
-    C_{\text{vys}} = \frac{C_{124} \cdot C_3}{C_{124} + C_3} = \frac{4{,}5 \cdot 1}{4{,}5 + 1} = \frac{4{,}5}{5{,}5} \approx 0{,}818\,\mu\text{F}
-    $$
+   $$
+   C_{\text{vys}} = \frac{C_{124} \cdot C_3}{C_{124} + C_3} = \frac{4{,}5 \cdot 1}{4{,}5 + 1} = \frac{4{,}5}{5{,}5} \approx 0{,}818\,\mu\text{F}
+   $$
 
 **Výsledek:** $C = 0{,}82\,\mu\text{F}$
 
 ## Elektrický proud a odpor
 
 ### 6. Elektrický proud
+
 **Zadání:** V elektronovém paprsku obrazovky projde za jednu sekundu počet elektronů $n = 5 \times 10^{14}$. Náboj elektronu je $e = -1{,}6 \times 10^{-19}\,\text{C}$. Jakému elektrickému proudu to odpovídá?
 
 **Vzorec:**
@@ -140,24 +142,27 @@ $$R_0 = \rho \cdot \frac{l}{S}, \quad S = \pi \cdot \frac{d^2}{4}, \quad \Delta 
 
 **Výpočet:**
 $$S = \pi \cdot \frac{(1{,}2 \times 10^{-3})^2}{4} \approx 1{,}13097 \times 10^{-6}\,\text{m}^2$$
-$$R_0 = 1{,}68 \times 10^{-8} \cdot \frac{450}{1{,}13097 \times 10^{-6}} \approx 6{,}6845\,\Omega$$
-$$\Delta R = 6{,}6845 \cdot 0{,}0039 \cdot 60 \approx 1{,}564\,\Omega$$
+$$R_0 = 1{,}8 \times 10^{-8} \cdot \frac{450}{1{,}13097 \times 10^{-6}} \approx 7{,}159\,\Omega$$
+$$\Delta R = 7{,}159 \cdot 0{,}0042 \cdot 60 \approx 1{,}804\,\Omega$$
 
-**Výsledek:** $\Delta R = 1{,}78\,\Omega$ (možná odchylka).
+**Výsledek:** $\Delta R \approx 1{,}80\,\Omega$
 
 ### 9. Odpor při jiné teplotě
+
 **Zadání:** Vodič z mědi měl při teplotě $20\,\mathrm{°C}$ odpor $4{,}2\,\Omega$. Vypočítejte jeho odpor při teplotě $-15\,\mathrm{°C}$.
 
 **Vzorec:**
 $$R_T = R_{\text{ref}} \cdot (1 + \alpha \cdot (T - T_{\text{ref}}))$$
 
 kde:
+
 - $R_{\text{ref}}$ je odpor při referenční teplotě ($20\,\mathrm{°C}$),
 - $\alpha$ je teplotní součinitel odporu mědi ($\approx 0{,}0039\,\mathrm{K}^{-1}$),
 - $T$ je nová teplota ($-15\,\mathrm{°C}$),
 - $T_{\text{ref}}$ je referenční teplota ($20\,\mathrm{°C}$).
 
 **Výpočet:**
+
 $$
 \Delta T = -15\,\mathrm{°C} - 20\,\mathrm{°C} = -35\,\mathrm{°C} \\
 R_{-15} = 4{,}2 \cdot (1 + 0{,}0039 \cdot (-35)) \\
@@ -206,6 +211,7 @@ $$P_{\text{ztráty}} = 11440 - 10000 = 1440\,\text{W} = 1{,}44\,\text{kW}$$
     |          |
     +---[R3]---+
 ```
+
 **Vzorec:**
 $$\frac{1}{R_{\text{celk}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$
 
@@ -228,22 +234,23 @@ $$\frac{1}{R_{\text{celk}}} = \frac{1}{1} + \frac{1}{2} + \frac{1}{3} = \frac{11
 **Popis zapojení:** $R_3$ a $R_4$ jsou zapojeny paralelně, jejich kombinace je v sérii s $R_2$ a $R_5$, tento celek je paralelně s $R_6$, a nakonec vše v sérii s $R_1$.
 
 **Výpočet:**
+
 1. Paralelní spojení $R_3$ a $R_4$:
-    $$
-    R_{34} = \frac{R_3 \cdot R_4}{R_3 + R_4} = \frac{30 \cdot 120}{30 + 120} = \frac{3600}{150} = 24\,\Omega
-    $$
+   $$
+   R_{34} = \frac{R_3 \cdot R_4}{R_3 + R_4} = \frac{30 \cdot 120}{30 + 120} = \frac{3600}{150} = 24\,\Omega
+   $$
 2. Sériové spojení $R_{34}$, $R_2$ a $R_5$:
-    $$
-    R_{2345} = R_2 + R_{34} + R_5 = 12 + 24 + 4 = 40\,\Omega
-    $$
+   $$
+   R_{2345} = R_2 + R_{34} + R_5 = 12 + 24 + 4 = 40\,\Omega
+   $$
 3. Paralelní spojení $R_{2345}$ a $R_6$:
-    $$
-    R_{23456} = \frac{R_{2345} \cdot R_6}{R_{2345} + R_6} = \frac{40 \cdot 60}{40 + 60} = \frac{2400}{100} = 24\,\Omega
-    $$
+   $$
+   R_{23456} = \frac{R_{2345} \cdot R_6}{R_{2345} + R_6} = \frac{40 \cdot 60}{40 + 60} = \frac{2400}{100} = 24\,\Omega
+   $$
 4. Sériové spojení s $R_1$:
-    $$
-    R_{\text{celk}} = R_1 + R_{23456} = 16 + 24 = 40\,\Omega
-    $$
+   $$
+   R_{\text{celk}} = R_1 + R_{23456} = 16 + 24 = 40\,\Omega
+   $$
 
 **Výsledek:** $R = 40\,\Omega$
 
@@ -256,9 +263,11 @@ $$\frac{1}{R_{\text{celk}}} = \frac{1}{1} + \frac{1}{2} + \frac{1}{3} = \frac{11
 ![Schéma zapojení rezistorů](./obr/priklad3.png)
 
 **Vzorec:**
+
 $$
 R_{345} = \left( \frac{1}{R_3} + \frac{1}{R_4} + \frac{1}{R_5} \right)^{-1}
 $$
+
 $$
 R_{\text{celk}} = R_1 + R_2 + R_{345}
 $$
@@ -278,25 +287,29 @@ $$
 **Sestavení rovnic podle Kirchhoffových zákonů:**
 
 - Uzlový zákon (1. KZ):
-    $$
-    I_1 + I_2 - I_3 = 0
-    $$
+
+  $$
+  I_1 + I_2 - I_3 = 0
+  $$
 
 - Smyčkové zákony (2. KZ):
-    $$
-    U_1 - R_1 I_1 - R_3 I_3 = 0 \quad \text{(smyčka 1)}
-    $$
-    $$
-    U_2 - R_2 I_2 - R_3 I_3 = 0 \quad \text{(smyčka 2)}
-    $$
+  $$
+  U_1 - R_1 I_1 - R_3 I_3 = 0 \quad \text{(smyčka 1)}
+  $$
+  $$
+  U_2 - R_2 I_2 - R_3 I_3 = 0 \quad \text{(smyčka 2)}
+  $$
 
 **Dosazení známých hodnot:**
+
 $$
 I_1 + I_2 - I_3 = 0
 $$
+
 $$
 14 - 2I_1 - 4I_3 = 0
 $$
+
 $$
 18 - 3I_2 - 4I_3 = 0
 $$
@@ -304,45 +317,54 @@ $$
 **Postup řešení:**
 
 1. Z první rovnice vyjádříme $I_3$:
-     $$
-     I_3 = I_1 + I_2
-     $$
+
+   $$
+   I_3 = I_1 + I_2
+   $$
 
 2. Dosadíme $I_3$ do druhé a třetí rovnice:
-     $$
-     14 - 2I_1 - 4(I_1 + I_2) = 0 \implies 14 - 6I_1 - 4I_2 = 0 \quad (1)
-     $$
-     $$
-     18 - 3I_2 - 4(I_1 + I_2) = 0 \implies 18 - 4I_1 - 7I_2 = 0 \quad (2)
-     $$
+
+   $$
+   14 - 2I_1 - 4(I_1 + I_2) = 0 \implies 14 - 6I_1 - 4I_2 = 0 \quad (1)
+   $$
+
+   $$
+   18 - 3I_2 - 4(I_1 + I_2) = 0 \implies 18 - 4I_1 - 7I_2 = 0 \quad (2)
+   $$
 
 3. Vynásobíme rovnici (1) číslem 7 a rovnici (2) číslem 4:
-     $$
-     98 - 42I_1 - 28I_2 = 0
-     $$
-     $$
-     72 - 16I_1 - 28I_2 = 0
-     $$
+
+   $$
+   98 - 42I_1 - 28I_2 = 0
+   $$
+
+   $$
+   72 - 16I_1 - 28I_2 = 0
+   $$
 
 4. Odečteme druhou rovnici od první:
-     $$
-     (98 - 42I_1 - 28I_2) - (72 - 16I_1 - 28I_2) = 0
-     $$
-     $$
-     26 - 26I_1 = 0 \implies I_1 = 1\,\text{A}
-     $$
+
+   $$
+   (98 - 42I_1 - 28I_2) - (72 - 16I_1 - 28I_2) = 0
+   $$
+
+   $$
+   26 - 26I_1 = 0 \implies I_1 = 1\,\text{A}
+   $$
 
 5. Dosadíme $I_1 = 1\,\text{A}$ do rovnice (1):
-     $$
-     14 - 6 \cdot 1 - 4I_2 = 0 \implies I_2 = 2\,\text{A}
-     $$
+
+   $$
+   14 - 6 \cdot 1 - 4I_2 = 0 \implies I_2 = 2\,\text{A}
+   $$
 
 6. Dopočítáme $I_3$:
-     $$
-     I_3 = 1 + 2 = 3\,\text{A}
-     $$
+   $$
+   I_3 = 1 + 2 = 3\,\text{A}
+   $$
 
 **Výsledky:**
+
 - $I_1 = 1\,\text{A}$
 - $I_2 = 2\,\text{A}$
 - $I_3 = 3\,\text{A}$
@@ -370,6 +392,7 @@ $$
    kde $U_2$ je hledané napětí na rezistoru $R_2$.
 
 2. Známé hodnoty:
+
    - Napájecí napětí: $U = 150\,\text{V}$
    - První rezistor: $R_1 = 100\,\Omega$
    - Druhý rezistor: $R_2 = 200\,\Omega$
@@ -379,7 +402,8 @@ $$
 
 **Výsledek:** Napětí na odbočce děliče je $U_2 = 100\,\text{V}$
 
-**Kontrola:** 
+**Kontrola:**
+
 - Napětí na $R_1$: $U_1 = 150 - 100 = 50\,\text{V}$
 - Poměr napětí odpovídá poměru odporů: $\frac{U_1}{U_2} = \frac{50}{100} = \frac{1}{2} = \frac{R_1}{R_2} = \frac{100}{200}$
 
@@ -388,21 +412,24 @@ Pro nezatížený dělič napětí platí:
 $$U_2 = U \cdot \frac{R_2}{R_1 + R_2}$$
 
 kde:
+
 - $U_2$ je napětí na rezistoru $R_2$ (výstupní napětí děliče)
 - $U$ je napájecí napětí
 - $R_1$, $R_2$ jsou odpory rezistorů
 
 **Postup výpočtu:**
+
 1. Dosadíme známé hodnoty do vzorce:
-    - $U = 150\,\text{V}$
-    - $R_1 = 100\,\Omega$
-    - $R_2 = 200\,\Omega$
+
+   - $U = 150\,\text{V}$
+   - $R_1 = 100\,\Omega$
+   - $R_2 = 200\,\Omega$
 
 2. Vypočítáme součet odporů ve jmenovateli:
-    $$R_1 + R_2 = 100\,\Omega + 200\,\Omega = 300\,\Omega$$
+   $$R_1 + R_2 = 100\,\Omega + 200\,\Omega = 300\,\Omega$$
 
 3. Vypočítáme výstupní napětí:
-    $$U_2 = 150\,\text{V} \cdot \frac{200\,\Omega}{300\,\Omega} = 150\,\text{V} \cdot \frac{2}{3} = 100\,\text{V}$$
+   $$U_2 = 150\,\text{V} \cdot \frac{200\,\Omega}{300\,\Omega} = 150\,\text{V} \cdot \frac{2}{3} = 100\,\text{V}$$
 
 **Výsledek:** $U_2 = 100\,\text{V}$
 
@@ -457,16 +484,45 @@ $$H = \frac{0{,}4}{2\pi \cdot 0{,}08} \approx 0{,}796\,\text{A}/\text{m}$$
 
 **Zadání:** Určete magnetickou indukci a magnetický tok v prstencové cívce. Střední průměr prstence je $D = 160\,\text{mm}$, průřez cívky $S = 12\,\text{cm}^2$. Cívka má $N = 750$ závitů. Proud je $I = 16\,\text{A}$. Intenzita magnetického pole je po celém průřezu konstantní. Prostředí uvnitř cívky je vzduch.
 
-**Vzorce:**
-$$l = \pi \cdot D, \quad H = \frac{N \cdot I}{l}, \quad B = \mu_0 \cdot H, \quad \Phi = B \cdot S$$
+**Vzorce a jejich význam:**
+
+1. **Délka magnetického obvodu ($l$):**
+   $$l = \pi \cdot D$$
+   Délka magnetického obvodu je vypočítána jako obvod kruhu, který odpovídá střednímu průměru prstence.
+
+2. **Intenzita magnetického pole ($H$):**
+   $$H = \frac{N \cdot I}{l}$$
+   Intenzita magnetického pole je určena počtem závitů cívky, proudem a délkou magnetického obvodu.
+
+3. **Magnetická indukce ($B$):**
+   $$B = \mu_0 \cdot H$$
+   Magnetická indukce je určena intenzitou magnetického pole a permeabilitou prostředí ($\mu_0$ pro vzduch).
+
+4. **Magnetický tok ($\Phi$):**
+   $$\Phi = B \cdot S$$
+   Magnetický tok je dán součinem magnetické indukce a průřezu cívky.
 
 **Výpočet:**
-$$l = \pi \cdot 0{,}16 \approx 0{,}50265\,\text{m}$$
-$$H = \frac{750 \cdot 16}{0{,}50265} \approx 23{,}87 \times 10^3\,\text{A}/\text{m}$$
-$$B = (4\pi \times 10^{-7}) \cdot 23{,}87 \times 10^3 \approx 3 \times 10^{-2}\,\text{T}$$
-$$\Phi = 3 \times 10^{-2} \cdot 12 \times 10^{-4} = 36 \times 10^{-6}\,\text{Wb}$$
 
-**Výsledky:** $H = 23{,}885 \times 10^3\,\text{A}/\text{m}$, $B = 3 \times 10^{-2}\,\text{T}$, $\Phi = 36 \times 10^{-6}\,\text{Wb}.
+1. Délka magnetického obvodu:
+   $$l = \pi \cdot 0{,}16 \approx 0{,}50265\,\text{m}$$
+
+2. Intenzita magnetického pole:
+   $$H = \frac{750 \cdot 16}{0{,}50265} \approx 23{,}87 \times 10^3\,\text{A}/\text{m}$$
+
+3. Magnetická indukce:
+   $$B = (4\pi \times 10^{-7}) \cdot 23{,}87 \times 10^3 \approx 3 \times 10^{-2}\,\text{T}$$
+
+4. Magnetický tok:
+   $$\Phi = 3 \times 10^{-2} \cdot 12 \times 10^{-4} = 36 \times 10^{-6}\,\text{Wb}$$
+
+**Výsledky:**
+
+- **Intenzita magnetického pole:** $H = 23{,}885 \times 10^3\,\text{A}/\text{m}$
+- **Magnetická indukce:** $B = 3 \times 10^{-2}\,\text{T}$
+- **Magnetický tok:** $\Phi = 36 \times 10^{-6}\,\text{Wb}$
+
+**Poznámka:** Výpočty předpokládají homogenní magnetické pole a vzduch jako prostředí s permeabilitou $\mu_0 = 4\pi \times 10^{-7}\,\text{H}/\text{m}$.
 
 ### 21. Intenzita a indukce v cívce
 
@@ -534,6 +590,7 @@ $$I_{\text{ef}} = \frac{1{,}2 / \sqrt{2}}{5} \approx 0{,}17\,\text{A}$$
 **Výsledky:** $X_L = 5\,\Omega$, $I = 0{,}17\,\text{A}$
 
 ### 26. Skutečná cívka (RL obvod)
+
 **Zadání:** Skutečná cívka s indukčností $L = 202\,\text{mH}$ a odporem $R = 80\,\Omega$ je připojena ke zdroji střídavého napětí. Cívkou prochází proud $I = 2\,\text{A}$ při frekvenci $f = 100\,\text{Hz}$. Stanovte impedanci obvodu, napětí zdroje, napětí na indukčnosti a na odporu.
 
 **Vzorce:**
@@ -565,6 +622,7 @@ $$U_C = 4 \cdot 45{,}47 \approx 181{,}88\,\text{V}$$
 **Výsledky:** $Z = 54{,}47\,\Omega$, $U = 217{,}88\,\text{V}$, $U_C = 181{,}88\,\text{V}$, $U_R = 120\,\text{V}$
 
 ### 28. Sériový rezonanční obvod
+
 **Zadání:** Stanovte kapacitu ideálního kondenzátoru sériového rezonančního obvodu, aby došlo k rezonanci při frekvenci $f_0 = 200\,\text{kHz}$. Indukčnost ideální cívky je $L = 150\,\mu\text{H}$.
 
 **Vzorec:**
